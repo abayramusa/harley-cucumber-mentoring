@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         , dryRun = false,
 //        tags = "@uc",
 
-//        plugin = {"html:target/Destination"},
+//        plugin = {"html:target/Destination"}
         plugin = {
                 "html:target/default-cucumber-reports",
                 "json:target/cucumber.json"

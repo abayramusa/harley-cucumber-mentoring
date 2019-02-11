@@ -244,6 +244,15 @@ public class BrowserUtils {
         }
     }
 
+    public WebElement clickByText(String string){
+        WebElement webElement =Driver.getDriver().findElement(By.linkText(string));
+        return webElement;
+    }
+
+    public WebElement clickByPartialText(String string) {
+        WebElement webElement = Driver.getDriver().findElement(By.partialLinkText(string));
+        return webElement;
+    }
 
 }
 

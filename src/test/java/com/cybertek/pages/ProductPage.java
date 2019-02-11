@@ -10,5 +10,6 @@ public class ProductPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-
+    @FindBy(xpath = "/html/body/section/section/section/div[1]/p[1]/span/b")
+    public WebElement yearTextBox;
 }

@@ -18,7 +18,7 @@ public class Hooks {
     public void setUp(){
 //        System.out.println("I am setting up the test from the Hooks class!!!");
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        Driver.getDriver().manage().window().maximize();
         // you can also add maximize screen here
     }
 
